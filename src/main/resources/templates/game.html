@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <p>HI</p>
+</head>
+<body>
+<h1>Mancala</h1>
+<h2>Current Player: <span id="currentPlayer">Player A</span></h2>
+<h2 id="extraTurn" style="display: none;">Extra Turn!</h2>
+
+<table border="1">
+    <tr>
+        <!-- Player B's pits -->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="pit13">6</td>
+    </tr>
+    <tr>
+        <!-- Player B's big pit -->
+        <td colspan="7" id="bigPit1">0</td>
+    </tr>
+    <tr>
+        <!-- Player A's big pit -->
+        <td colspan="7" id="bigPit0">0</td>
+    </tr>
+    <tr>
+        <!-- Player A's pits -->
+        <td id="pit0">6</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>
